@@ -1,0 +1,180 @@
+title: PADrend Tutorials
+kind: root
+items:
+- title: Installation Guide
+  kind: folder
+  items:
+  - title: Building PADrend from source
+    url: /installation_guide
+    kind: page
+  - title: Syntax Highlighting for EScript
+    url: /escript_syntax_highlighting
+    kind: page
+  - title: Using PADrend at the University Pools
+    url: /pool_guide
+    kind: page
+- title: User Guide
+  kind: folder
+  items:
+  - title: User Interface Shortcuts
+    url: /shortcuts
+    kind: page
+  - title: Scene Loading and Navigation
+    url: /scene_loading_and_navigation
+    kind: page
+  - title: Scene Building
+    url: /scene_building
+    kind: page
+  - title: Basic Animation
+    url: /basic_animation
+    kind: page
+  - title: Functional Objects and Physics
+    url: /functional_objects_and_physics
+    kind: page
+  - title: Functional Objects Pointing Joint
+    url: /functional_objects_pointing_joint
+    kind: page
+  - title: Using Scripts
+    url: /using_scripts
+    kind: page
+  - title: Object Factories
+    url: /object_factories
+    kind: page
+  - title: Camera Path
+    url: /camera_path
+    kind: page
+- title: Developer Guide
+  kind: folder
+  items:
+  - title: EScript
+    kind: folder
+    items:
+    - title: Introduction to EScript
+      url: /introduction_to_escript
+      kind: page
+    - title: From C++ to EScript
+      url: /from_c++_to_escript_bindings_and_macros
+      kind: page
+  - title: PADrend Basics
+    kind: folder
+    items:
+    - title: PADrend Basics
+      url: /padrend_basics
+      kind: page
+    - title: GeometricObjects
+      url: /geometricobjects
+      kind: page
+    - title: Geometry
+      url: /geometry
+      kind: page
+    - title: Matrices
+      url: /matrices
+      kind: page
+    - title: Vectors
+      url: /vectors
+      kind: page
+  - title: MinSG - A Minimalist Scene Graph
+    kind: folder
+    items:
+    - title: Creating a Scene using MinSG
+      url: /creating_a_scene_using_minsg
+      kind: page
+    - title: Introduction to States
+      url: /introduction_to_states
+      kind: page
+    - title: Basic Node States
+      url: /basic_node_states
+      kind: page
+    - title: Node States for handling Blending and Transparency
+      url: /node_states_for_handling_blending_and_transparency
+      kind: page
+    - title: LightingState
+      url: /lightingstate
+      kind: page
+    - title: Using Scripts to alter the Rendering of Nodes
+      url: /using_scripts_to_alter_the_rendering_of_nodes
+      kind: page
+    - title: Shaders in Node States
+      url: /shaders_in_node_states
+      kind: page
+    - title: Group States
+      url: /groupstates
+      kind: page
+    - title: Extending MinSG States using C++
+      url: /extending_minsg_states_using_c++
+      kind: page
+    - title: Using Observer Traits Listen to Node Changes
+      url: /using_observer_traits_listen_to_node_changes
+      kind: page
+    - title: Using TreeQueries to query MinSG Nodes
+      url: /tree_queries
+      kind: page
+  - title: PADrend Plugins
+    kind: folder
+    items:
+    - title: Creating Plugins using EScript
+      url: /creating_plugins_using_escript
+      kind: page
+    - title: Extending your Plugin with C++
+      url: /extending_your_plugin_with_c++
+      kind: page
+  - title: Graphical User Interface
+    kind: folder
+    items:
+    - title: GUI Factories
+      url: /gui_factories
+      kind: page
+    - title: Handling User Interface Events
+      url: /handling_user_interface_events
+      kind: page
+    - title: Combining GUI Items and DataWrappers
+      url: /combining_gui_items_and_datawrappers
+      kind: page
+    - title: A Simple Image Viewer - Part 1 The Basic UI
+      url: /a_simple_image_viewer_-_part_1_the_basic_ui
+      kind: page
+    - title: A Simple Image Viewer - Part 2 Loading and Displaying Images
+      url: /a_simple_image_viewer_-_part_2_loading_and_displaying_images
+      kind: page
+    - title: A Simple Image Viewer - Part 3 Simple Image Manipulation
+      url: /a_simple_image_viewer_-_part_3_simple_image_manipulation
+      kind: page
+  - title: Rendering
+    kind: folder
+    items:
+    - title: Working with Meshes
+      url: /working_with_meshes
+      kind: page
+    - title: Changing the Render Target - Rendering to a Texture
+      url: /render_to_texture
+      kind: page
+    - title: Modifying Textures with Texture Processors
+      url: /texture_processor
+      kind: page
+    - title: Generating Terrains using a Heightmap Shader
+      url: /heightmap_shader
+      kind: page
+    - title: Post Process Effects - Edge Enhancement
+      url: /post_process_effects
+      kind: page
+  - title: Networking and the File System
+    kind: folder
+    items:
+    - title: Working with Files
+      url: /working_with_files
+      kind: page
+    - title: A Simple Client-Server Program
+      url: /a_simple_client_server_program
+      kind: page
+  - title: Experimental Evaluation
+    kind: folder
+    items:
+    - title: Creating Camera Paths
+      url: /creating_camera_paths
+      kind: page
+    - title: Evaluating Image Quality
+      url: /evaluating_image_quality
+      kind: page
+    - title: Evaluating Frame Time
+      url: /evaluating_frame_time
+      kind: page

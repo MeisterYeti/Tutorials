@@ -1,0 +1,1027 @@
+title: EScript API
+kind: root
+items:
+- title: EScript
+  kind: folder
+  items:
+  - title: IO
+    url: /escript_namespace_IO
+    kind: namespace
+  - title: Math
+    url: /escript_namespace_Math
+    kind: namespace
+    items:
+    - title: "RandomNumberGenerator"
+      url: /escript_type_Math_RandomNumberGenerator
+      kind: type
+  - title: "Array"
+    url: /escript_type_Array
+    kind: type
+  - title: "Bool"
+    url: /escript_type_Bool
+    kind: type
+  - title: "Collection"
+    url: /escript_type_Collection
+    kind: type
+  - title: "Exception"
+    url: /escript_type_Exception
+    kind: type
+  - title: "ExtObject"
+    url: /escript_type_ExtObject
+    kind: type
+  - title: "FnBinder"
+    url: /escript_type_FnBinder
+    kind: type
+  - title: "Function"
+    url: /escript_type_Function
+    kind: type
+  - title: "Identifier"
+    url: /escript_type_Identifier
+    kind: type
+  - title: "Iterator"
+    url: /escript_type_Iterator
+    kind: type
+  - title: "Map"
+    url: /escript_type_Map
+    kind: type
+  - title: "Namespace"
+    url: /escript_type_Namespace
+    kind: type
+  - title: "Number"
+    url: /escript_type_Number
+    kind: type
+  - title: "Object"
+    url: /escript_type_Object
+    kind: type
+  - title: "Runtime"
+    url: /escript_type_Runtime
+    kind: type
+  - title: "String"
+    url: /escript_type_String
+    kind: type
+  - title: "Type"
+    url: /escript_type_Type
+    kind: type
+  - title: "UserFunction"
+    url: /escript_type_UserFunction
+    kind: type
+  - title: "YieldIterator"
+    url: /escript_type_YieldIterator
+    kind: type
+- title: GUI
+  url: /escript_namespace_GUI
+  kind: namespace
+  items:
+  - title: "AbstractFont"
+    url: /escript_type_GUI_AbstractFont
+    kind: type
+  - title: "AbstractLayouter"
+    url: /escript_type_GUI_AbstractLayouter
+    kind: type
+  - title: "AbstractShape"
+    url: /escript_type_GUI_AbstractShape
+    kind: type
+  - title: "BitmapFont"
+    url: /escript_type_GUI_BitmapFont
+    kind: type
+  - title: "Button"
+    url: /escript_type_GUI_Button
+    kind: type
+  - title: "Checkbox"
+    url: /escript_type_GUI_Checkbox
+    kind: type
+  - title: "ColorProperty"
+    url: /escript_type_GUI_ColorProperty
+    kind: type
+  - title: "Component"
+    url: /escript_type_GUI_Component
+    kind: type
+  - title: "Connector"
+    url: /escript_type_GUI_Connector
+    kind: type
+  - title: "Container"
+    url: /escript_type_GUI_Container
+    kind: type
+  - title: "DisplayProperty"
+    url: /escript_type_GUI_DisplayProperty
+    kind: type
+  - title: "EditorPanel"
+    url: /escript_type_GUI_EditorPanel
+    kind: type
+  - title: "FlowLayouter"
+    url: /escript_type_GUI_FlowLayouter
+    kind: type
+  - title: "FontProperty"
+    url: /escript_type_GUI_FontProperty
+    kind: type
+  - title: "GUI_Manager"
+    url: /escript_type_GUI_GUI_Manager
+    kind: type
+  - title: "Icon"
+    url: /escript_type_GUI_Icon
+    kind: type
+  - title: "Image"
+    url: /escript_type_GUI_Image
+    kind: type
+  - title: "ImageData"
+    url: /escript_type_GUI_ImageData
+    kind: type
+  - title: "Label"
+    url: /escript_type_GUI_Label
+    kind: type
+  - title: "ListView"
+    url: /escript_type_GUI_ListView
+    kind: type
+  - title: "Menu"
+    url: /escript_type_GUI_Menu
+    kind: type
+  - title: "NextColumn"
+    url: /escript_type_GUI_NextColumn
+    kind: type
+  - title: "NextRow"
+    url: /escript_type_GUI_NextRow
+    kind: type
+  - title: "Panel"
+    url: /escript_type_GUI_Panel
+    kind: type
+  - title: "Scrollbar"
+    url: /escript_type_GUI_Scrollbar
+    kind: type
+  - title: "ShapeProperty"
+    url: /escript_type_GUI_ShapeProperty
+    kind: type
+  - title: "Slider"
+    url: /escript_type_GUI_Slider
+    kind: type
+  - title: "Splitter"
+    url: /escript_type_GUI_Splitter
+    kind: type
+  - title: "Tab"
+    url: /escript_type_GUI_Tab
+    kind: type
+  - title: "TabbedPanel"
+    url: /escript_type_GUI_TabbedPanel
+    kind: type
+  - title: "Textarea"
+    url: /escript_type_GUI_Textarea
+    kind: type
+  - title: "Textfield"
+    url: /escript_type_GUI_Textfield
+    kind: type
+  - title: "TreeView"
+    url: /escript_type_GUI_TreeView
+    kind: type
+  - title: "TreeViewEntry"
+    url: /escript_type_GUI_TreeViewEntry
+    kind: type
+  - title: "UseShapeProperty"
+    url: /escript_type_GUI_UseShapeProperty
+    kind: type
+  - title: "Window"
+    url: /escript_type_GUI_Window
+    kind: type
+- title: Geometry
+  url: /escript_namespace_Geometry
+  kind: namespace
+  items:
+  - title: "Box"
+    url: /escript_type_Geometry_Box
+    kind: type
+  - title: "Frustum"
+    url: /escript_type_Geometry_Frustum
+    kind: type
+  - title: "Line3"
+    url: /escript_type_Geometry_Line3
+    kind: type
+  - title: "Matrix3x3"
+    url: /escript_type_Geometry_Matrix3x3
+    kind: type
+  - title: "Matrix4x4"
+    url: /escript_type_Geometry_Matrix4x4
+    kind: type
+  - title: "Plane"
+    url: /escript_type_Geometry_Plane
+    kind: type
+  - title: "PointOctree"
+    url: /escript_type_Geometry_PointOctree
+    kind: type
+  - title: "Quaternion"
+    url: /escript_type_Geometry_Quaternion
+    kind: type
+  - title: "Ray3"
+    url: /escript_type_Geometry_Ray3
+    kind: type
+  - title: "Rect"
+    url: /escript_type_Geometry_Rect
+    kind: type
+  - title: "SRT"
+    url: /escript_type_Geometry_SRT
+    kind: type
+  - title: "Segment3"
+    url: /escript_type_Geometry_Segment3
+    kind: type
+  - title: "Sphere"
+    url: /escript_type_Geometry_Sphere
+    kind: type
+  - title: "Tetrahedron"
+    url: /escript_type_Geometry_Tetrahedron
+    kind: type
+  - title: "Triangle"
+    url: /escript_type_Geometry_Triangle
+    kind: type
+  - title: "Vec2"
+    url: /escript_type_Geometry_Vec2
+    kind: type
+  - title: "Vec3"
+    url: /escript_type_Geometry_Vec3
+    kind: type
+  - title: "Vec4"
+    url: /escript_type_Geometry_Vec4
+    kind: type
+- title: MinSG
+  url: /escript_namespace_MinSG
+  kind: namespace
+  items:
+  - title: Behaviours
+    url: /escript_group_MinSG_Behaviours
+    kind: group
+    items:
+    - title: "AbstractBehaviour"
+      url: /escript_type_MinSG_AbstractBehaviour
+      kind: type
+    - title: "AbstractBehaviourDecorator"
+      url: /escript_type_MinSG_AbstractBehaviourDecorator
+      kind: type
+    - title: "AbstractNodeBehaviour"
+      url: /escript_type_MinSG_AbstractNodeBehaviour
+      kind: type
+    - title: "AbstractStateBehaviour"
+      url: /escript_type_MinSG_AbstractStateBehaviour
+      kind: type
+    - title: "Behavior"
+      url: /escript_type_MinSG_Behavior
+      kind: type
+    - title: "BehaviorStatus"
+      url: /escript_type_MinSG_BehaviorStatus
+      kind: type
+    - title: "BehaviourGroup"
+      url: /escript_type_MinSG_BehaviourGroup
+      kind: type
+    - title: "BehaviourManager"
+      url: /escript_type_MinSG_BehaviourManager
+      kind: type
+    - title: "KeyFrameAnimationBehaviour"
+      url: /escript_type_MinSG_KeyFrameAnimationBehaviour
+      kind: type
+    - title: "ScriptedBehavior"
+      url: /escript_type_MinSG_ScriptedBehavior
+      kind: type
+    - title: "ScriptedNodeBehaviour"
+      url: /escript_type_MinSG_ScriptedNodeBehaviour
+      kind: type
+    - title: "ScriptedStateBehaviour"
+      url: /escript_type_MinSG_ScriptedStateBehaviour
+      kind: type
+    - title: "SimplePhysics2"
+      url: /escript_type_MinSG_SimplePhysics2
+      kind: type
+    - title: "TimedBehaviourDecorator"
+      url: /escript_type_MinSG_TimedBehaviourDecorator
+      kind: type
+  - title: Extensions
+    url: /escript_group_MinSG_Extensions
+    kind: group
+    items:
+    - title: AGVS
+      url: /escript_namespace_MinSG_AGVS
+      kind: namespace
+      items:
+      - title: Extensions
+        kind: folder
+        items:
+        - title: "AdaptiveGlobalVisibilitySampling"
+          url: /escript_type_MinSG_AGVS_AdaptiveGlobalVisibilitySampling
+          kind: type
+    - title: BlueSurfels
+      url: /escript_namespace_MinSG_BlueSurfels
+      kind: namespace
+      items:
+      - title: "AbstractSurfelSampler"
+        url: /escript_type_MinSG_BlueSurfels_AbstractSurfelSampler
+        kind: type
+      - title: "AbstractSurfelStrategy"
+        url: /escript_type_MinSG_BlueSurfels_AbstractSurfelStrategy
+        kind: type
+      - title: "AdaptiveStrategy"
+        url: /escript_type_MinSG_BlueSurfels_AdaptiveStrategy
+        kind: type
+      - title: "BlendStrategy"
+        url: /escript_type_MinSG_BlueSurfels_BlendStrategy
+        kind: type
+      - title: "DebugStrategy"
+        url: /escript_type_MinSG_BlueSurfels_DebugStrategy
+        kind: type
+      - title: "FactorStrategy"
+        url: /escript_type_MinSG_BlueSurfels_FactorStrategy
+        kind: type
+      - title: "FixedCountStrategy"
+        url: /escript_type_MinSG_BlueSurfels_FixedCountStrategy
+        kind: type
+      - title: "FixedSizeStrategy"
+        url: /escript_type_MinSG_BlueSurfels_FixedSizeStrategy
+        kind: type
+      - title: "FoveatedStrategy"
+        url: /escript_type_MinSG_BlueSurfels_FoveatedStrategy
+        kind: type
+      - title: "GreedyCluster"
+        url: /escript_type_MinSG_BlueSurfels_GreedyCluster
+        kind: type
+      - title: "ProgressiveSampler"
+        url: /escript_type_MinSG_BlueSurfels_ProgressiveSampler
+        kind: type
+      - title: "RandomSampler"
+        url: /escript_type_MinSG_BlueSurfels_RandomSampler
+        kind: type
+      - title: "ReferencePointStrategy"
+        url: /escript_type_MinSG_BlueSurfels_ReferencePointStrategy
+        kind: type
+      - title: "ScriptedSampler"
+        url: /escript_type_MinSG_BlueSurfels_ScriptedSampler
+        kind: type
+      - title: "ShaderStrategy"
+        url: /escript_type_MinSG_BlueSurfels_ShaderStrategy
+        kind: type
+    - title: ColorCube
+      url: /escript_namespace_MinSG_ColorCube
+      kind: namespace
+    - title: MixedExtVisibility
+      url: /escript_namespace_MinSG_MixedExtVisibility
+      kind: namespace
+    - title: OutOfCore
+      url: /escript_namespace_MinSG_OutOfCore
+      kind: namespace
+    - title: Physics
+      url: /escript_namespace_MinSG_Physics
+      kind: namespace
+      items:
+      - title: "CollisionShape"
+        url: /escript_type_MinSG_Physics_CollisionShape
+        kind: type
+      - title: "PhysicWorld"
+        url: /escript_type_MinSG_Physics_PhysicWorld
+        kind: type
+    - title: PipelineStatistics
+      url: /escript_namespace_MinSG_PipelineStatistics
+      kind: namespace
+      items:
+      - title: Extensions
+        kind: folder
+        items:
+        - title: "Collector"
+          url: /escript_type_MinSG_PipelineStatistics_Collector
+          kind: type
+    - title: SVS
+      url: /escript_namespace_MinSG_SVS
+      kind: namespace
+      items:
+      - title: Extensions
+        kind: folder
+        items:
+        - title: "BudgetRenderer"
+          url: /escript_type_MinSG_SVS_BudgetRenderer
+          kind: type
+        - title: "GeometryNodeCollector"
+          url: /escript_type_MinSG_SVS_GeometryNodeCollector
+          kind: type
+        - title: "PreprocessingContext"
+          url: /escript_type_MinSG_SVS_PreprocessingContext
+          kind: type
+        - title: "Renderer"
+          url: /escript_type_MinSG_SVS_Renderer
+          kind: type
+        - title: "SamplePoint"
+          url: /escript_type_MinSG_SVS_SamplePoint
+          kind: type
+        - title: "SphereVisualizationRenderer"
+          url: /escript_type_MinSG_SVS_SphereVisualizationRenderer
+          kind: type
+        - title: "VisibilitySphere"
+          url: /escript_type_MinSG_SVS_VisibilitySphere
+          kind: type
+    - title: SamplingAnalysis
+      url: /escript_namespace_MinSG_SamplingAnalysis
+      kind: namespace
+    - title: TreeSync
+      url: /escript_namespace_MinSG_TreeSync
+      kind: namespace
+      items:
+      - title: Extensions
+        kind: folder
+        items:
+        - title: "Server"
+          url: /escript_type_MinSG_TreeSync_Server
+          kind: type
+        - title: "TreeSyncClient"
+          url: /escript_type_MinSG_TreeSync_TreeSyncClient
+          kind: type
+    - title: Triangulation
+      url: /escript_namespace_MinSG_Triangulation
+      kind: namespace
+      items:
+      - title: Extensions
+        kind: folder
+        items:
+        - title: "Delaunay2d"
+          url: /escript_type_MinSG_Triangulation_Delaunay2d
+          kind: type
+        - title: "Delaunay3d"
+          url: /escript_type_MinSG_Triangulation_Delaunay3d
+          kind: type
+    - title: VoxelWorld
+      url: /escript_namespace_MinSG_VoxelWorld
+      kind: namespace
+      items:
+      - title: "MaterialLib"
+        url: /escript_type_MinSG_VoxelWorld_MaterialLib
+        kind: type
+      - title: "VoxelStorage"
+        url: /escript_type_MinSG_VoxelWorld_VoxelStorage
+        kind: type
+    - title: "AbstractImageComparator"
+      url: /escript_type_MinSG_AbstractImageComparator
+      kind: type
+    - title: "AbstractOnGpuComparator"
+      url: /escript_type_MinSG_AbstractOnGpuComparator
+      kind: type
+    - title: "AdaptCullEvaluator"
+      url: /escript_type_MinSG_AdaptCullEvaluator
+      kind: type
+    - title: "AreaEvaluator"
+      url: /escript_type_MinSG_AreaEvaluator
+      kind: type
+    - title: "ArmatureNode"
+      url: /escript_type_MinSG_ArmatureNode
+      kind: type
+    - title: "AverageComparator"
+      url: /escript_type_MinSG_AverageComparator
+      kind: type
+    - title: "BoxQualityEvaluator"
+      url: /escript_type_MinSG_BoxQualityEvaluator
+      kind: type
+    - title: "ColorCubeRenderer"
+      url: /escript_type_MinSG_ColorCubeRenderer
+      kind: type
+    - title: "ColorVisibilityEvaluator"
+      url: /escript_type_MinSG_ColorVisibilityEvaluator
+      kind: type
+    - title: "CostEvaluator"
+      url: /escript_type_MinSG_CostEvaluator
+      kind: type
+    - title: "Evaluator"
+      url: /escript_type_MinSG_Evaluator
+      kind: type
+    - title: "FollowPathBehaviour"
+      url: /escript_type_MinSG_FollowPathBehaviour
+      kind: type
+    - title: "JointNode"
+      url: /escript_type_MinSG_JointNode
+      kind: type
+    - title: "OccOverheadEvaluator"
+      url: /escript_type_MinSG_OccOverheadEvaluator
+      kind: type
+    - title: "OverdrawFactorEvaluator"
+      url: /escript_type_MinSG_OverdrawFactorEvaluator
+      kind: type
+    - title: "PVSRenderer"
+      url: /escript_type_MinSG_PVSRenderer
+      kind: type
+    - title: "ParticleAffector"
+      url: /escript_type_MinSG_ParticleAffector
+      kind: type
+    - title: "ParticleAnimator"
+      url: /escript_type_MinSG_ParticleAnimator
+      kind: type
+    - title: "ParticleBoxEmitter"
+      url: /escript_type_MinSG_ParticleBoxEmitter
+      kind: type
+    - title: "ParticleEmitter"
+      url: /escript_type_MinSG_ParticleEmitter
+      kind: type
+    - title: "ParticleFadeOutAffector"
+      url: /escript_type_MinSG_ParticleFadeOutAffector
+      kind: type
+    - title: "ParticleGravityAffector"
+      url: /escript_type_MinSG_ParticleGravityAffector
+      kind: type
+    - title: "ParticlePointEmitter"
+      url: /escript_type_MinSG_ParticlePointEmitter
+      kind: type
+    - title: "ParticleReflectionAffector"
+      url: /escript_type_MinSG_ParticleReflectionAffector
+      kind: type
+    - title: "ParticleSystemNode"
+      url: /escript_type_MinSG_ParticleSystemNode
+      kind: type
+    - title: "PathNode"
+      url: /escript_type_MinSG_PathNode
+      kind: type
+    - title: "PathTracer"
+      url: /escript_type_MinSG_PathTracer
+      kind: type
+    - title: "PyramidComparator"
+      url: /escript_type_MinSG_PyramidComparator
+      kind: type
+    - title: "RTree"
+      url: /escript_type_MinSG_RTree
+      kind: type
+    - title: "RigidJoint"
+      url: /escript_type_MinSG_RigidJoint
+      kind: type
+    - title: "SSIMComparator"
+      url: /escript_type_MinSG_SSIMComparator
+      kind: type
+    - title: "ScriptedEvaluator"
+      url: /escript_type_MinSG_ScriptedEvaluator
+      kind: type
+    - title: "SimilarPixelCounter"
+      url: /escript_type_MinSG_SimilarPixelCounter
+      kind: type
+    - title: "SkeletalAbstractPose"
+      url: /escript_type_MinSG_SkeletalAbstractPose
+      kind: type
+    - title: "SkeletalAnimationBehaviour"
+      url: /escript_type_MinSG_SkeletalAnimationBehaviour
+      kind: type
+    - title: "SkeletalHardwareRendererState"
+      url: /escript_type_MinSG_SkeletalHardwareRendererState
+      kind: type
+    - title: "SkeletalMatrixPose"
+      url: /escript_type_MinSG_SkeletalMatrixPose
+      kind: type
+    - title: "SkeletalNode"
+      url: /escript_type_MinSG_SkeletalNode
+      kind: type
+    - title: "SkeletalSRTPose"
+      url: /escript_type_MinSG_SkeletalSRTPose
+      kind: type
+    - title: "SkeletalSoftwareRendererState"
+      url: /escript_type_MinSG_SkeletalSoftwareRendererState
+      kind: type
+    - title: "StatsEvaluator"
+      url: /escript_type_MinSG_StatsEvaluator
+      kind: type
+    - title: "SurfelRenderer"
+      url: /escript_type_MinSG_SurfelRenderer
+      kind: type
+    - title: "TreeVisualization"
+      url: /escript_type_MinSG_TreeVisualization
+      kind: type
+    - title: "TrianglesEvaluator"
+      url: /escript_type_MinSG_TrianglesEvaluator
+      kind: type
+    - title: "TwinPartitionsRenderer"
+      url: /escript_type_MinSG_TwinPartitionsRenderer
+      kind: type
+    - title: "VisibilityEvaluator"
+      url: /escript_type_MinSG_VisibilityEvaluator
+      kind: type
+    - title: "VisibilitySubdivisionRenderer"
+      url: /escript_type_MinSG_VisibilitySubdivisionRenderer
+      kind: type
+    - title: "VisibilityVector"
+      url: /escript_type_MinSG_VisibilityVector
+      kind: type
+    - title: "Waypoint"
+      url: /escript_type_MinSG_Waypoint
+      kind: type
+  - title: Helper
+    url: /escript_group_MinSG_Helper
+    kind: group
+    items:
+    - title: GraphVizOutput
+      url: /escript_namespace_MinSG_GraphVizOutput
+      kind: namespace
+    - title: TreeBuilder
+      url: /escript_namespace_MinSG_TreeBuilder
+      kind: namespace
+    - title: "DebugCamera"
+      url: /escript_type_MinSG_DebugCamera
+      kind: type
+    - title: "DirectionalInterpolator"
+      url: /escript_type_MinSG_DirectionalInterpolator
+      kind: type
+    - title: "StatChart"
+      url: /escript_type_MinSG_StatChart
+      kind: type
+    - title: "ValuatedRegionNode"
+      url: /escript_type_MinSG_ValuatedRegionNode
+      kind: type
+  - title: Nodes
+    url: /escript_group_MinSG_Nodes
+    kind: group
+    items:
+    - title: "AbstractCameraNode"
+      url: /escript_type_MinSG_AbstractCameraNode
+      kind: type
+    - title: "BillboardNode"
+      url: /escript_type_MinSG_BillboardNode
+      kind: type
+    - title: "CameraNode"
+      url: /escript_type_MinSG_CameraNode
+      kind: type
+    - title: "CameraNodeOrtho"
+      url: /escript_type_MinSG_CameraNodeOrtho
+      kind: type
+    - title: "FakeInstanceNode"
+      url: /escript_type_MinSG_FakeInstanceNode
+      kind: type
+    - title: "GenericMetaNode"
+      url: /escript_type_MinSG_GenericMetaNode
+      kind: type
+    - title: "GeometryNode"
+      url: /escript_type_MinSG_GeometryNode
+      kind: type
+    - title: "GroupNode"
+      url: /escript_type_MinSG_GroupNode
+      kind: type
+    - title: "KeyFrameAnimationNode"
+      url: /escript_type_MinSG_KeyFrameAnimationNode
+      kind: type
+    - title: "LightNode"
+      url: /escript_type_MinSG_LightNode
+      kind: type
+    - title: "ListNode"
+      url: /escript_type_MinSG_ListNode
+      kind: type
+    - title: "Node"
+      url: /escript_type_MinSG_Node
+      kind: type
+  - title: SceneManagement
+    url: /escript_namespace_MinSG_SceneManagement
+    kind: namespace
+    items:
+    - title: "ImportContext"
+      url: /escript_type_MinSG_SceneManagement_ImportContext
+      kind: type
+    - title: "SceneManager"
+      url: /escript_type_MinSG_SceneManagement_SceneManager
+      kind: type
+  - title: States
+    url: /escript_group_MinSG_States
+    kind: group
+    items:
+    - title: "AlphaTestState"
+      url: /escript_type_MinSG_AlphaTestState
+      kind: type
+    - title: "BlendingState"
+      url: /escript_type_MinSG_BlendingState
+      kind: type
+    - title: "BudgetAnnotationState"
+      url: /escript_type_MinSG_BudgetAnnotationState
+      kind: type
+    - title: "CHCRenderer"
+      url: /escript_type_MinSG_CHCRenderer
+      kind: type
+    - title: "CHCppRenderer"
+      url: /escript_type_MinSG_CHCppRenderer
+      kind: type
+    - title: "CullFaceState"
+      url: /escript_type_MinSG_CullFaceState
+      kind: type
+    - title: "EnvironmentState"
+      url: /escript_type_MinSG_EnvironmentState
+      kind: type
+    - title: "GroupState"
+      url: /escript_type_MinSG_GroupState
+      kind: type
+    - title: "HOMRenderer"
+      url: /escript_type_MinSG_HOMRenderer
+      kind: type
+    - title: "LODRenderer"
+      url: /escript_type_MinSG_LODRenderer
+      kind: type
+    - title: "LightingState"
+      url: /escript_type_MinSG_LightingState
+      kind: type
+    - title: "MaterialState"
+      url: /escript_type_MinSG_MaterialState
+      kind: type
+    - title: "MirrorState"
+      url: /escript_type_MinSG_MirrorState
+      kind: type
+    - title: "NaiveOccRenderer"
+      url: /escript_type_MinSG_NaiveOccRenderer
+      kind: type
+    - title: "NodeRendererState"
+      url: /escript_type_MinSG_NodeRendererState
+      kind: type
+    - title: "OccRenderer"
+      url: /escript_type_MinSG_OccRenderer
+      kind: type
+    - title: "OccludeeRenderer"
+      url: /escript_type_MinSG_OccludeeRenderer
+      kind: type
+    - title: "PointParameterState"
+      url: /escript_type_MinSG_PointParameterState
+      kind: type
+    - title: "PolygonModeState"
+      url: /escript_type_MinSG_PolygonModeState
+      kind: type
+    - title: "ProjSizeFilterState"
+      url: /escript_type_MinSG_ProjSizeFilterState
+      kind: type
+    - title: "RandomColorRenderer"
+      url: /escript_type_MinSG_RandomColorRenderer
+      kind: type
+    - title: "ScriptedNodeRendererState"
+      url: /escript_type_MinSG_ScriptedNodeRendererState
+      kind: type
+    - title: "ScriptedState"
+      url: /escript_type_MinSG_ScriptedState
+      kind: type
+    - title: "ShaderState"
+      url: /escript_type_MinSG_ShaderState
+      kind: type
+    - title: "ShaderUniformState"
+      url: /escript_type_MinSG_ShaderUniformState
+      kind: type
+    - title: "ShadowState"
+      url: /escript_type_MinSG_ShadowState
+      kind: type
+    - title: "State"
+      url: /escript_type_MinSG_State
+      kind: type
+    - title: "StrangeExampleRenderer"
+      url: /escript_type_MinSG_StrangeExampleRenderer
+      kind: type
+    - title: "TextureState"
+      url: /escript_type_MinSG_TextureState
+      kind: type
+    - title: "TransparencyRenderer"
+      url: /escript_type_MinSG_TransparencyRenderer
+      kind: type
+  - title: "FrameContext"
+    url: /escript_type_MinSG_FrameContext
+    kind: type
+  - title: "RenderParam"
+    url: /escript_type_MinSG_RenderParam
+    kind: type
+  - title: "Statistics"
+    url: /escript_type_MinSG_Statistics
+    kind: type
+- title: Rendering
+  url: /escript_namespace_Rendering
+  kind: namespace
+  items:
+  - title: Draw
+    url: /escript_group_Rendering_Draw
+    kind: group
+    items:
+    - title: "TextRenderer"
+      url: /escript_type_Rendering_TextRenderer
+      kind: type
+  - title: Helper
+    url: /escript_group_Rendering_Helper
+    kind: group
+    items:
+    - title: "OcclusionQuery"
+      url: /escript_type_Rendering_OcclusionQuery
+      kind: type
+    - title: "StatisticsQuery"
+      url: /escript_type_Rendering_StatisticsQuery
+      kind: type
+  - title: Meshes
+    url: /escript_group_Rendering_Meshes
+    kind: group
+    items:
+    - title: VertexAttributeIds
+      url: /escript_namespace_Rendering_VertexAttributeIds
+      kind: namespace
+    - title: "Attribute"
+      url: /escript_type_Rendering_Attribute
+      kind: type
+    - title: "ColorAttributeAccessor"
+      url: /escript_type_Rendering_ColorAttributeAccessor
+      kind: type
+    - title: "ConnectivityAccessor"
+      url: /escript_type_Rendering_ConnectivityAccessor
+      kind: type
+    - title: "FloatAttributeAccessor"
+      url: /escript_type_Rendering_FloatAttributeAccessor
+      kind: type
+    - title: "Mesh"
+      url: /escript_type_Rendering_Mesh
+      kind: type
+    - title: "MeshBuilder"
+      url: /escript_type_Rendering_MeshBuilder
+      kind: type
+    - title: "NormalAttributeAccessor"
+      url: /escript_type_Rendering_NormalAttributeAccessor
+      kind: type
+    - title: "PositionAttributeAccessor"
+      url: /escript_type_Rendering_PositionAttributeAccessor
+      kind: type
+    - title: "TexCoordAttributeAccessor"
+      url: /escript_type_Rendering_TexCoordAttributeAccessor
+      kind: type
+    - title: "TriangleAccessor"
+      url: /escript_type_Rendering_TriangleAccessor
+      kind: type
+    - title: "UIntAttributeAccessor"
+      url: /escript_type_Rendering_UIntAttributeAccessor
+      kind: type
+    - title: "VertexAccessor"
+      url: /escript_type_Rendering_VertexAccessor
+      kind: type
+    - title: "VertexAttributeAccessor"
+      url: /escript_type_Rendering_VertexAttributeAccessor
+      kind: type
+    - title: "VertexDescription"
+      url: /escript_type_Rendering_VertexDescription
+      kind: type
+  - title: Rendering Context
+    url: /escript_group_Rendering_Rendering Context
+    kind: group
+    items:
+    - title: BlendEquation
+      url: /escript_namespace_Rendering_BlendEquation
+      kind: namespace
+    - title: BlendFunc
+      url: /escript_namespace_Rendering_BlendFunc
+      kind: namespace
+    - title: Comparison
+      url: /escript_namespace_Rendering_Comparison
+      kind: namespace
+    - title: TexUnitUsageParameter
+      url: /escript_namespace_Rendering_TexUnitUsageParameter
+      kind: namespace
+    - title: "AlphaTestParameters"
+      url: /escript_type_Rendering_AlphaTestParameters
+      kind: type
+    - title: "BlendingParameters"
+      url: /escript_type_Rendering_BlendingParameters
+      kind: type
+    - title: "BufferObject"
+      url: /escript_type_Rendering_BufferObject
+      kind: type
+    - title: "CullFaceParameters"
+      url: /escript_type_Rendering_CullFaceParameters
+      kind: type
+    - title: "FBO"
+      url: /escript_type_Rendering_FBO
+      kind: type
+    - title: "ImageBindParameters"
+      url: /escript_type_Rendering_ImageBindParameters
+      kind: type
+    - title: "LightingParameters"
+      url: /escript_type_Rendering_LightingParameters
+      kind: type
+    - title: "MaterialParameters"
+      url: /escript_type_Rendering_MaterialParameters
+      kind: type
+    - title: "PointParameters"
+      url: /escript_type_Rendering_PointParameters
+      kind: type
+    - title: "PolygonModeParameters"
+      url: /escript_type_Rendering_PolygonModeParameters
+      kind: type
+    - title: "RenderingContext"
+      url: /escript_type_Rendering_RenderingContext
+      kind: type
+    - title: "ScissorParameters"
+      url: /escript_type_Rendering_ScissorParameters
+      kind: type
+    - title: "StencilParameters"
+      url: /escript_type_Rendering_StencilParameters
+      kind: type
+  - title: Shaders
+    url: /escript_group_Rendering_Shaders
+    kind: group
+    items:
+    - title: "Shader"
+      url: /escript_type_Rendering_Shader
+      kind: type
+    - title: "Uniform"
+      url: /escript_type_Rendering_Uniform
+      kind: type
+  - title: Textures
+    url: /escript_group_Rendering_Textures
+    kind: group
+    items:
+    - title: "Texture"
+      url: /escript_type_Rendering_Texture
+      kind: type
+- title: Sound
+  url: /escript_namespace_Sound
+  kind: namespace
+  items:
+  - title: "Buffer"
+    url: /escript_type_Sound_Buffer
+    kind: type
+  - title: "Listener"
+    url: /escript_type_Sound_Listener
+    kind: type
+  - title: "Source"
+    url: /escript_type_Sound_Source
+    kind: type
+- title: Util
+  url: /escript_namespace_Util
+  kind: namespace
+  items:
+  - title: Graphics
+    url: /escript_group_Util_Graphics
+    kind: group
+    items:
+    - title: Bitmap
+      kind: folder
+      items:
+      - title: "PixelFormat"
+        url: /escript_type_Util_Bitmap_PixelFormat
+        kind: type
+    - title: "Bitmap"
+      url: /escript_type_Util_Bitmap
+      kind: type
+    - title: "Color4f"
+      url: /escript_type_Util_Color4f
+      kind: type
+    - title: "Color4ub"
+      url: /escript_type_Util_Color4ub
+      kind: type
+    - title: "PixelAccessor"
+      url: /escript_type_Util_PixelAccessor
+      kind: type
+  - title: IO
+    url: /escript_group_Util_IO
+    kind: group
+    items:
+    - title: "FileLocator"
+      url: /escript_type_Util_FileLocator
+      kind: type
+    - title: "FileName"
+      url: /escript_type_Util_FileName
+      kind: type
+    - title: "IOStream"
+      url: /escript_type_Util_IOStream
+      kind: type
+    - title: "TemporaryDirectory"
+      url: /escript_type_Util_TemporaryDirectory
+      kind: type
+  - title: Network
+    url: /escript_namespace_Util_Network
+    kind: namespace
+    items:
+    - title: "ClockSynchronizer"
+      url: /escript_type_Util_Network_ClockSynchronizer
+      kind: type
+    - title: "DataBroadcaster"
+      url: /escript_type_Util_Network_DataBroadcaster
+      kind: type
+    - title: "DataConnection"
+      url: /escript_type_Util_Network_DataConnection
+      kind: type
+    - title: "TCPConnection"
+      url: /escript_type_Util_Network_TCPConnection
+      kind: type
+    - title: "TCPServer"
+      url: /escript_type_Util_Network_TCPServer
+      kind: type
+    - title: "UDPNetworkSocket"
+      url: /escript_type_Util_Network_UDPNetworkSocket
+      kind: type
+  - title: TypeConstant
+    url: /escript_namespace_Util_TypeConstant
+    kind: namespace
+  - title: UI
+    url: /escript_namespace_Util_UI
+    kind: namespace
+    items:
+    - title: "EventContext"
+      url: /escript_type_Util_UI_EventContext
+      kind: type
+    - title: "EventQueue"
+      url: /escript_type_Util_UI_EventQueue
+      kind: type
+    - title: "SplashScreen"
+      url: /escript_type_Util_UI_SplashScreen
+      kind: type
+    - title: "Window"
+      url: /escript_type_Util_UI_Window
+      kind: type
+  - title: "DestructionMonitor"
+    url: /escript_type_Util_DestructionMonitor
+    kind: type
+  - title: "MicroXMLReader"
+    url: /escript_type_Util_MicroXMLReader
+    kind: type
+  - title: "ProgressIndicator"
+    url: /escript_type_Util_ProgressIndicator
+    kind: type
+  - title: "Timer"
+    url: /escript_type_Util_Timer
+    kind: type
+  - title: "UpdatableHeap"
+    url: /escript_type_Util_UpdatableHeap
+    kind: type
+  - title: "UpdatableHeapElement"
+    url: /escript_type_Util_UpdatableHeapElement
+    kind: type

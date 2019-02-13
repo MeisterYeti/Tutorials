@@ -1,0 +1,13 @@
+<a href="#" id="scroll" style="display: none;"><span></span></a>
+<ul id="mysidebar" class="nav">
+  {% for sb_name in site.sidebars %}
+    {% assign sidebar = site.data.sidebars[sb_name] %}
+    <li class="sidebarTitle">{{sidebar.title}}</li>
+    {% assign indent = 10 %}
+    {% assign tree = sidebar.items %}
+    {% include tree.html %}
+  {% endfor %}
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
